@@ -1,4 +1,4 @@
-package com.Day4;
+package Sprint1Day4;
 
 public class EvenOdd {
 
@@ -24,7 +24,7 @@ int num;
 	public static void main(String[] args) {
 		
 		EvenOdd n1 = new EvenOdd();
-		n1.num = 62;
+		n1.num = -62;
 		
 		n1.numberType();
 	}

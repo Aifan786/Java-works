@@ -1,4 +1,4 @@
-package com.Day4;
+package Sprint1Day4;
 
 public class Demo {
 
