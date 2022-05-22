@@ -38,7 +38,10 @@ public class DemoC {
 	public static void main(String[] args) {
 		
 		DemoC d1 = new DemoC();
+		
 		d1.fun1(25,10.0f);
+		
+//		d1.fun1(10, 10);
 	}
 }
 

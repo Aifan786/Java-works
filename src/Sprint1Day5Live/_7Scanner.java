@@ -1,4 +1,4 @@
-package Sprint1Day5;
+package Sprint1Day5Live;
 
 import java.util.Scanner;
 

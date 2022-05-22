@@ -24,7 +24,7 @@ int num;
 	public static void main(String[] args) {
 		
 		EvenOdd n1 = new EvenOdd();
-		n1.num = -62;
+		n1.num = 62;
 		
 		n1.numberType();
 	}

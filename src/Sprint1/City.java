@@ -14,7 +14,7 @@ public class City {
 			
 		case "Kolkata":
 			System.out.println("City of Joy");
-			break;
+		    break;
 			
 		case "Delhi":
 			System.out.println("Capital of the country");

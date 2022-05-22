@@ -1,6 +1,5 @@
 package Sprint1;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 //public class DemoA {
 //

@@ -2,7 +2,7 @@ package Sprint1;
 
 public class Demo {
 
-		Demo(){
+	    Demo(){
 			this("Hello");
 			System.out.println("inside zero argument constructor Demo()");
 		}
