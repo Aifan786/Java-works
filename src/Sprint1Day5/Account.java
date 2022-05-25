@@ -38,12 +38,5 @@ public class Account {
 		}
 	}
 	
-//	public Account getAccountDetails() {
-//		if(balance>0) {
-//			
-//		}
-//	}
-	
-	
 	
 }

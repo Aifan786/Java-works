@@ -15,7 +15,7 @@ public class Demos {
 		//using parameterized constructor
 		System.out.println("Student1 details: ");
 		student1.showDetails();
-//		
+	
 		Student student2 = new Student(18, "Ramesh", 25, 400);
 		
 		System.out.println("-------------------");

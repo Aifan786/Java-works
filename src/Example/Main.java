@@ -9,7 +9,7 @@ public class Main {
 	{
 		Main obj=new Main();
 		
-		System.out.println(obj.j);// 200
+		System.out.println(obj.j); // 200
 		System.out.println(obj.a1); //A@23232
 		obj.a1.funA();
 		

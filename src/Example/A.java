@@ -6,6 +6,6 @@ public class A {
 	
 	void funA(){
 		
-		System.out.println("inside funA of A class");
+		System.out.println("inside funA"+ x +"of A class");
 	}
 }
