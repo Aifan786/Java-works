@@ -1,5 +1,6 @@
 package Day6Array;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseString {
@@ -9,24 +10,19 @@ public class ReverseString {
 		 Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the string to reverse");
 		
-//		int lenArray = sc.nextInt();
-//		
-//		int[] arr = new int[lenArray];
-//		
-//		for(int i=0; i<lenArray; i++) {
-//			arr[i] = sc.nextInt();
-//		}
-		
 		String str = sc.next();
-		char charArray[] = str.toCharArray();
 		
+		char charArray[] = str.toCharArray();
 
 		char ch;
 		String newString = "";
 		
+//		System.out.println(charArray);
+//		System.out.println(Arrays.toString(charArray));  //convert in an array format
+		
 		for(int i=charArray.length-1; i>=0; i--) {
 			ch = str.charAt(i);
-			newString = newString+ch;
+			newString+= ch;
 		}
 		System.out.println(newString);
 	}

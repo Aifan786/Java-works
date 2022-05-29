@@ -21,7 +21,9 @@ public class Member {
 	class Employee extends Member {
 		String Specialisation;
 		String Department;
-		Employee(String name,String phone,String Address,double salary,String spc,String dep){
+		
+		Employee(String name,String phone,String Address,
+				 double salary,String spc,String dep){
 			this.Salary=salary;
 			this.Address=Address;
 			this.phoneNumber=phone;
@@ -43,6 +45,7 @@ public class Member {
 	class Manager extends Member {
 		String Specialisation;
 		String Department;
+		
 		Manager(String name,String phone,String Address,double salary,String spc,String dep){
 			this.Salary=salary;
 			this.Address=Address;

@@ -1,5 +1,7 @@
 package Day6Array;
 
+import java.util.Scanner;
+
 public class PrimeNumber {
 
 	public void primeNumber(int[] array){
@@ -15,7 +17,7 @@ public class PrimeNumber {
 				}
 			}
 			if(count==2) {
-				System.out.println(array[i]+" "+"Prime number");
+				System.out.println(array[i]+" is "+"Prime number");
 			}
 			else {
 				C++;
@@ -28,14 +30,25 @@ public class PrimeNumber {
 	
 	public static void main(String[] args) {
 		
-		PrimeNumber p1 = new PrimeNumber();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the length of array");
+		int len = sc.nextInt();
 		
-		int[] arr = new int[5];
-		arr[0] = 4;
-		arr[1] = 6;
-		arr[2] = 2;
-		arr[3] = 8;
-		arr[4] = 13;
+		int[] arr = new int[len];
+		
+		for(int i=0; i<len; i++) {
+			System.out.println("Enter a number");
+			int num = sc.nextInt();
+			arr[i] = num; 
+		}
+		
+		PrimeNumber p1 = new PrimeNumber();
+//		int[] arr = new int[5];
+//		arr[0] = 4;
+//		arr[1] = 6;
+//		arr[2] = 2;
+//		arr[3] = 8;
+//		arr[4] = 13;
 		
 		p1.primeNumber(arr);
 	}

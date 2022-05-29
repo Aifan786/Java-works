@@ -1,0 +1,29 @@
+
+Q. Explain ClassCastException with the help of the example.
+
+Ans => We can downcast the parent class variable to the child class object 
+       only if the parent class variable point to the child class object, 
+       otherwise it will throw a runtime exception called ClassCastException.
+       
+Example:-
+
+public class Animal{
+          void state(){
+              System.out.prinln("Animal is running");          
+           }
+       }
+       class Tiger extends Animal{
+          void state{
+            System.out.prinln("Tiger is running");
+          }
+          void eat{
+            System.out.prinln("Tiger is eating");
+          }
+       }
+       
+       //From the main method 
+       Animal a1 = new Animal();
+       a1.eat(); //ClasscastException
+       
+       
+       

@@ -1,0 +1,8 @@
+
+
+Q. Explain dynamic polymorphism ?
+
+Ans => In this process, an overridden method is called through the reference 
+       variable of a super class. The determination of the method to be called 
+       is based on the object being referred to by the reference variable.
+       It occurs at runtime so it is also known as Runtime polymorphism. 

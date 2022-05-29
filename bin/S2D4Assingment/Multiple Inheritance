@@ -1,0 +1,10 @@
+
+
+Q. Why is multiple inheritance not supported in Java at class level ?
+
+Ans => Multiple inheritance not supported in Java at class level, the reason
+       behind is to prevent ambiguity.
+       Consider a scenario where class C extends class A and class B and both 
+       class A and C have same method display(). Now the Java compiler cannot 
+       decide, which display method it should inherit. To prevent such situation 
+       multiple inheritance is not allowed in Java
