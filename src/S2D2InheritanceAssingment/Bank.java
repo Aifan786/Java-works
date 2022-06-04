@@ -1,3 +1,4 @@
+
 package S2D2InheritanceAssingment;
 
 public class Bank {

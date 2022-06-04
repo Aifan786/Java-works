@@ -5,7 +5,7 @@ public class Main_Bird {
 	public static void main(String[] args) {
 		
 	    Bird b1 = new Parrot();  //Super class ref-child class object OR 
-	                                                      //object upcasting
+	                                                       //object upcasting
 		b1.fly();
 		
 		Parrot p1 = (Parrot)b1;  //Object downcasting

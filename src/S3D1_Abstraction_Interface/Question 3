@@ -1,0 +1,37 @@
+
+Q.  Explain abstract class and interface with an example.
+
+Ans => Abstract class:
+       
+       *Abstract class can have abstract and non-abstract keyword.
+       *Abstract class doesn't support multiple inheritance.
+       *Abstract class can be extended using "extend" keyword.
+       
+       Example:
+       
+       public abstract class Shape{
+       
+         public abstract void draw();
+         
+       }
+       
+       Inteface:
+       
+       *Interface can have abstract method. Since Java 8 can have default and 
+        static method also.
+       *Interface supports multiple inheritance.
+       *Interface can be implemented using "implements" keyword.
+       
+       Example:
+       
+       public interface shape{
+       
+          void draw();
+          default void color();
+       
+       }
+       
+       
+       
+       
+       
