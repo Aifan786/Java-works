@@ -1,7 +1,5 @@
 package S3D2_Interface;
 
-import java.util.Scanner;
-
 public class Mobile {
 	
 	String[] outdatedModels = {"note4","note5","note6","note7"};
@@ -14,7 +12,7 @@ public class Mobile {
 				
 				if(str.equals(str2)) {
 					
-					System.out.println(str+"_OUTDATED");
+					System.out.println(s+" "+str+"_OUTDATED");
 				}
 			}
 		}

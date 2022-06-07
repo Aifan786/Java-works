@@ -35,12 +35,7 @@ public class Demo {
 		String aadhar = sc.next();
 		
 		System.out.println("Enter mobile number");
-		String mobile = sc.next();
-		
-//		System.out.println(Pattern.matches("[a-zA-Z]{3,8}", name)); 
-//		System.out.println(Pattern.matches("[0-9]{12}", aadhar)); 
-//		System.out.println(Pattern.matches("[6789][0-9]{9}", mobile)); 
-
+		String mobile = sc.next(); 
 
 		Boolean bl = demo.validate(name, mobile, aadhar);
 		

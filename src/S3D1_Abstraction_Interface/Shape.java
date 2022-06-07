@@ -27,4 +27,8 @@ class Area extends Shape{
 		return (int) (3.14*radius*radius);
 	}
 	
+//	void hexagon() {
+//		System.out.println("Hexagon have 6 side");
+//	}
+	
 }
