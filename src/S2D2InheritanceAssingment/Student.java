@@ -5,7 +5,7 @@ public class Student {
 	int studId;
 	String studName;
 	double examFee;
-	
+
 	public void displayDetails() {
 		System.out.println("Student Id: "+studId);
 		System.out.println("Student Name: "+studName);
